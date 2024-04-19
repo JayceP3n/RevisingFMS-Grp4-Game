@@ -18,7 +18,7 @@ function preload() {
   lossSound = loadSound('sound/loss.mp3');
   tieSound = loadSound('sound/Tie.mp3'); // Loading the tie sound
 
-  BackgroundImage = loadImage('images/game1-images/Background.jpeg.jpg');
+  BackgroundImage = loadImage('images/game1-images/Background.jpg');
   resetImg = loadImage('images/game1-images/Reset.png'); // Load the reset button image
   youLoseImg = loadImage('images/game1-images/YouLose.png'); // Load the "You Lose" image
   youWonImg = loadImage('images/game1-images/YouWon.png'); // Load the "You Won" image

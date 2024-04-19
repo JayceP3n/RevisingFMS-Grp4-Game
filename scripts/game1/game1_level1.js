@@ -19,7 +19,7 @@ function preload() {
   victorySound = loadSound('sounds/victory.mp3');
   lossSound = loadSound('sounds/loss.mp3');
   tieSound = loadSound('sounds/Tie.mp3');
-  backgroundImage = loadImage('images/game1-images/Background.jpeg');
+  backgroundImage = loadImage('images/game1-images/Background.jpg');
   resetButtonImage = loadImage('images/game1-images/Reset.png');
   nextButtonImage = loadImage('images/game1-images/Next.png');
   youWinImage = loadImage('images/game1-images/YouWon.png'); // Load YouWon.png
@@ -228,6 +228,5 @@ function startOver() {
 }
 
 function continueToLevel2() {
-  // Redirect to level 2
-  window.location.href = "game1_level2.html"; // Change the URL to your level 2 file
+  window.open("game1_level2.html", "_self"); // Change the URL to your level 2 file
 }
