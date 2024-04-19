@@ -13,10 +13,10 @@ let clickSound, victorySound, lossSound, tieSound; // Sound variables including 
 function preload() {
   shellImg = loadImage('images/game1-images/marioshell.png');
   fishImg = loadImage('images/game1-images/mariofish.png');
-  clickSound = loadSound('sound/click.wav');
-  victorySound = loadSound('sound/victory.mp3');
-  lossSound = loadSound('sound/loss.mp3');
-  tieSound = loadSound('sound/Tie.mp3'); // Loading the tie sound
+  clickSound = loadSound('sounds/click.wav');
+  victorySound = loadSound('sounds/victory.mp3');
+  lossSound = loadSound('sounds/loss.mp3');
+  tieSound = loadSound('sounds/Tie.mp3'); // Loading the tie sound
 
   BackgroundImage = loadImage('images/game1-images/Background.jpg');
   resetImg = loadImage('images/game1-images/Reset.png'); // Load the reset button image
