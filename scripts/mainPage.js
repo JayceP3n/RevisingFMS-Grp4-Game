@@ -122,7 +122,7 @@ function displayTitleUI() {
 function displayButtons() {
   let buttonWidth = windowWidth/4;
   let buttonHeight = windowHeight/6;
-  let firstGame = "";
+  let firstGame = "https://jaycep3n.github.io/RevisingFMS-Grp4-Game/game1.html";
   let secondGame = "";
   let thirdGame = "";
 
