@@ -229,5 +229,5 @@ function startOver() {
 
 function continueToLevel2() {
   // Redirect to level 2
-  window.location.href = "https://editor.p5js.org/mnovlani/full/GNupRzcZs"; // Change the URL to your level 2 file
+  window.location.href = "game1_level2.html"; // Change the URL to your level 2 file
 }
