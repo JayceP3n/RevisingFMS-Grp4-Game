@@ -149,6 +149,17 @@ function displayButtons() {
   thirdBtn.mouseClicked(() => {
     window.open(thirdGame, "_self");
   })
+
+  // Add event to check of mouse is over the button
+  firstBtn.mouseOver(() => {
+    console.log("Mouse is over the first button");
+  })
+  secondBtn.mouseOver(() => {
+    console.log("Mouse is over the second button");
+  })
+  thirdBtn.mouseOver(() => {
+    console.log("Mouse is over the third button");
+  })
 }
 
 // Function to play music
