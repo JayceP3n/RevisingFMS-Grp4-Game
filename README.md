@@ -1,1 +1,1 @@
-# [Under The Sea Game](https://jaycep3n.github.io/RevisingFMS-Grp4-Game/)
+# [Under The Sea Game](https://jaycep3n.github.io/RevisingFMS-Grp4-Game.github.io/)
